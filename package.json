@@ -1,9 +1,10 @@
 {
   "name": "cse-341-project1",
   "version": "1.0.0",
-  "description": " my first project in cse 341",
+  "description": "my first project in cse 341",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ezenwokeuchechukwu/cse-341-project1/issues"
   },
-  "homepage": "https://github.com/ezenwokeuchechukwu/cse-341-project1#readme"
+  "homepage": "https://github.com/ezenwokeuchechukwu/cse-341-project1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
